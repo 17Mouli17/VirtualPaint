@@ -21,19 +21,7 @@ The project uses:
 
 ---
 
-## 📂 Project Structure  
-Virtual Paint/
-├── app.py
-├── main.py 
-├── color_utils.py 
-├── draw_utils.py 
-├── templates/
-│ └── index.html 
-├── requirements.txt 
-└── Resources
 
-
----
 
 ## 🚀 How to Run Locally  
 ### ✅ Run as desktop app  
