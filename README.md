@@ -23,12 +23,12 @@ The project uses:
 
 ## 📂 Project Structure  
 Virtual Paint/
-├── app.py # FastAPI server (optional web deployment)
-├── main.py # Core application logic (OpenCV loop)
-├── color_utils.py # Color detection & contour utilities
-├── draw_utils.py # Drawing functions
+├── app.py
+├── main.py 
+├── color_utils.py 
+├── draw_utils.py 
 ├── templates/
-│ └── index.html # Web UI page (for FastAPI version)
-├── requirements.txt # Python dependencies
-└── Resources/ # (optional) Images or sample media
+│ └── index.html 
+├── requirements.txt 
+└── Resources
 
