@@ -32,3 +32,17 @@ Virtual Paint/
 ├── requirements.txt 
 └── Resources
 
+
+---
+
+## 🚀 How to Run Locally  
+### ✅ Run as desktop app  
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   pip install opencv-python
+2. Make sure your webcam index is correct (in main.py, VideoCapture(0) or VideoCapture(1)).
+3. Run:
+       python main.py
+4. A window will open showing the webcam feed and virtual paint canvas.
+5. Use colored object(s) to draw. Press q or close window to exit.
