@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 def getContours(image):
-    contours, _ = cv2.findContours(image, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
+    contours, hirerachy = cv2.findContours(image, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
     x, y, w, h = 0, 0, 0, 0
     for cnt in contours:
         area = cv2.contourArea(cnt)
@@ -23,3 +23,4 @@ def findColor(image, colors, color_values, imgCnt):
         if x != 0 and y != 0:
             newPoints.append([x, y, i])
     return newPoints
+
